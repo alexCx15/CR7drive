@@ -1,0 +1,13 @@
+# Ignorar credenciales y tokens (¡CRÍTICO!)
+config/*.json
+!config/ejemplo_credentials.json
+
+# Ignorar logs y archivos temporales
+logs/*
+temp/*
+*.tar.gz
+*.log
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
